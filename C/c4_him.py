@@ -20,7 +20,7 @@ while p0 < n and p1 < m:
 if p0 < n:
     c = c + a[p0:]
 else:
-    c = c + b[p1]
+    c = c + b[p1:]
     
 
 print(c)
