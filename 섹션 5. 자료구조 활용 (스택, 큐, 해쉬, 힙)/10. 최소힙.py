@@ -1,5 +1,7 @@
 import heapq as hq
 
+# pop될 땐 가장 밑의 레벨의 가장 오른쪽 노드가 루트노드가 된다. (다운힙 과정)
+# 루트노드와 자식노드중 더 작은 값과 변경한다.
 a = []
 while True:
     n = int(input())
